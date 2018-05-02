@@ -1,0 +1,32 @@
+{
+    "name": "xiradorn/catdescription",
+    "type": "phpbb-extension",
+    "description": "Simple extension for allow you to dispay a category description under the title if exist and until now visible only on the category page.",
+    "homepage": "http://xdojo.xiradorn.it/x/32x/",
+    "version": "1.0.0",
+    "time": "2018-05-02",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Sir Xiradorn",
+            "email": "xiradorn@gmail.com",
+            "homepage": "http://xiradorn.it",
+            "role": "Leading Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Category Description Under Title",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        },
+        "version-check": {
+            "host": "phpbb.xiradorn.it",
+            "directory": "/ext/catdescription",
+            "filename": "version_check"
+        }
+    }
+}
