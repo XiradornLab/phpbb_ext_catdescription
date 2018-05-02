@@ -14,14 +14,14 @@ _**Mobile Version**_
 **Requirements:**  
 * ***phpBB 3.1.x*** or ***phpBB 3.2.x***  
 
-**Repository:** xDojo Navbar - https://github.com/XiradornLab/phpbb_ext_xdojonavbar  
-**Release Download:** xDojo Navbar - https://github.com/XiradornLab/phpbb_ext_xdojonavbar/releases/latest  
+**Repository:** xDojo Navbar - https://github.com/XiradornLab/phpbb_ext_catdescription  
+**Release Download:** xDojo Navbar - https://github.com/XiradornLab/phpbb_ext_catdescription/releases/latest  
 
 **Features:**  
 * Ability to show category description under the title if exist
 
 #### Installation:  
-* Download the latest release from (https://github.com/XiradornLab/phpbb_ext_xdojonavbar/releases).
+* Download the latest release from (https://github.com/XiradornLab/phpbb_ext_catdescription/releases).
 * Unzip the downloaded release, and change the name of the folder to `catdescription`.
 * In the `ext` directory of your phpBB board, create a new directory named `xiradorn` (if it does not already exist).
 * Copy the `catdescription` folder to `/ext/xiradorn/` (if done correctly, you'll have the main extension class at (your forum root)/ext/xiradorn/catdescription/composer.json).
